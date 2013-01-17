@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<id>http://www.vicentedealencar.com.br/blog/</id>
+<title>Vicente de Alencar</title>
+<updated>{{ site.time | date_to_xmlschema }}</updated>
+<link href="http://www.vicentedealencar.com.br/blog/" />
+<link href="http://www.vicentedealencar.com.br/blog/atom.xml" rel="self" />
+<author>
+<name>Vicente de Alencar</name>
+<email>vicentedealencar@gmail.com</email>
+</author>
+{% for post in site.posts %}
+<entry>
+<id>http://www.vicentedealencar.com.br/blog{{ post.url }}</id>
+<title>{{ post.title }}</title>
+<link href="http://www.vicentedealencar.com.br/blog{{ post.url }}" />
+<updated>{{ post.date | date_to_xmlschema }}</updated>
+<content type="html">{{ post.content | xml_escape }}</content>
+</entry>
+{% endfor %}
+</feed>
