@@ -3,7 +3,6 @@ layout: post
 heading: I don't know how to write a blog post
 subheading: So why woul I have a blog
 tags: [blog, jekyll]
-published: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
