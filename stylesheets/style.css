@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#links {
+  font-size:0.9em;
+  margin-top:40px;
+}
+
+#links li a {
+  color:#0f0f0f; 
+  text-decoration:none;
+  position: relative;
+  top: 1px;
+}
+
+#links li a:hover {
+  color:#787878; 
+  text-decoration:none;
+  cursor: pointer;
+}
+
+#links ul {
+  width:340px;
+  margin:0 auto;
+}
+
+#links ul li {
+  display:block; 
+  height:20px; 
+  width:auto; 
+  margin-left:0; 
+  list-style:none; 
+  float:left;
+  padding:0 20px;
+}
+
+#links li.blog {
+  background:transparent url(../images/icon_blog_16.png) 0 2px no-repeat;
+}
+
+#links li.twitter {
+  background:transparent url(../images/icon_twitter_16.png) 0 2px no-repeat;
+}
+
+#links li.github {
+  background:transparent url(../images/icon_github_16.png) 0 2px no-repeat;
+}
+
+#links li.linkedin {
+  background:transparent url(../images/icon_linkedin_16.png) 0 2px no-repeat;
+}
+
+#title {
+  font-size:4em;
+}
+
+a {
+  color: #787878;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f0f0f;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 1.2em 0 0.8em 0;
+}
+
+h3 {
+  margin: 1.4em 0 0.8em 0;
+}
+
+pre {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: #eee;
+  border: solid 1px #ddd;
+  padding: 1em;
+}
+
+#heading, .heading {
+  font-size: 1.4em;
+}
+
+#post, .post {
+  margin: 100px auto;
+  text-align: justify;
+  width: 600px;
+}
+
+#post .date {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+#posts {
+  clear: both;
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: left;
+  width: 550px;
+}
+
+#posts li {
+  margin-bottom: 0.5em;
+}
+
+#posts .date {
+  display: block;
+  float: left;
+  width: 14em;
+}
+
+#subheading {
+  font-size: 0.8em;
+  margin: 0.4em 0;
+}
+
+.date {
+}

@@ -1,0 +1,13 @@
+---
+layout: default
+heading: superafroman
+---
+
+<ol id="posts">
+  {% for post in site.posts %}
+    <li>
+      <span class="date">{{ post.date | date_to_long_string }}</span>
+      <a href="{{ post.url | remove_first : '/' }}">{{ post.heading }}: {{ post.subheading }}</a>
+    </li>
+  {% endfor %}
+</ol>

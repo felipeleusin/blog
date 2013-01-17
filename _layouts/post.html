@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div id="post">
+  <div id="heading">
+    {{ page.heading }}
+    {% if page.subheading %}
+      <div id="subheading">{{ page.subheading }}</div>
+    {% endif %}
+  </div>
+  {{ content }}
+  <span class="date">Posted on {{ page.date | date_to_long_string }}.</span>
+</div>
