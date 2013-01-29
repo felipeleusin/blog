@@ -23,7 +23,7 @@ body {
 }
 
 #links ul {
-  width:340px;
+  width:430px;
   margin:0 auto;
 }
 
@@ -51,6 +51,10 @@ body {
 
 #links li.linkedin {
   background:transparent url(../images/icon_linkedin_16.png) 0 2px no-repeat;
+}
+
+#links li.googleplus {
+  background:transparent url(../images/icon_googleplus_16.png) 0 2px no-repeat;
 }
 
 #title {
