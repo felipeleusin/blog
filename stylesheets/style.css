@@ -23,7 +23,7 @@ body {
 }
 
 #links ul {
-  width:430px;
+  width:500px;
   margin:0 auto;
 }
 
@@ -55,6 +55,10 @@ body {
 
 #links li.googleplus {
   background:transparent url(../images/icon_googleplus_16.png) 0 2px no-repeat;
+}
+
+#links li.rss {
+  background:transparent url(../images/icon_rss_16.png) 0 2px no-repeat;
 }
 
 #title {
